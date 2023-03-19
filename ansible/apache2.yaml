@@ -1,0 +1,11 @@
+---
+- name: Install Apache on servers
+  hosts: all
+  remote_user: vagrant
+  become: true
+
+  tasks:
+  - name: install apache
+    apt:
+      name: apache2
+      state: present
