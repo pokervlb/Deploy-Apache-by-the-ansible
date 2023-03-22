@@ -5,3 +5,5 @@ Two virtual machines were created and configured using Vagrant.
 Server1 became the master and server2 became the slave.
 
 Ansible has been installed and configured on server1 to deploy Apache on server2.
+
+Next step will be add simple python app in django.
